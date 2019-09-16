@@ -1,0 +1,41 @@
+body {
+  background-color: #2A0D45; /* makes the backgroung a spacey purple */
+  padding: 0; /* the padding was messing up the header image so I made it zero in the body incase it affected other tags */
+  margin: 0; /* the default margins were weird, so i made it zero for the body so i can override it in individual tags */
+  color: white; /* white texts so it's easier to read */
+  font-family: sans-serif; /*changed font family*/
+}
+
+aside {
+  float: right; /*aligned the aside section to be on the right */
+  padding-left: 5%; /* added padding to the left and right for easier reading */
+  padding-right: 5%;
+  background-color: black; /* black background to make it stand out */
+}
+
+article {
+  margin-right: 30%; /* changed the margin so it doesn't overlap with the aside */
+  margin-left: 5%; /* changed the left magin so it doesnt hug the window*/
+}
+
+h1 {
+  font-size: 48px;
+  margin-left: 5%; /* changed the left magin so it doesnt hug the window*/
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: normal; /* changed the weight to add more contrast between h1 and h2*/
+  margin-left: 5%; /* changed the left magin so it doesnt hug the window*/
+}
+
+p {
+  font-size: 16px;
+}
+
+header {
+  font-family: monospace; /* monospace cause that seemed more futuristic-y and alien-y*/
+  background-color: black;
+  background: url(assets/galaxy.jpeg); /*made the background image of the header a galaxy */
+  background-size: 100%; /* made it 100% to avoid the image from tiling */
+}
